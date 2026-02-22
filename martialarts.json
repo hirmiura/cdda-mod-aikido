@@ -304,8 +304,8 @@
             "tec_aikido_break",
             "tec_aikido_block_counter",
             "tec_aikido_dodge_counter",
-            "tec_aikido_throw1",
-            "tec_aikido_throw2",
+            "tec_aikido_throw",
+            "tec_aikido_dodge_counter2",
             "tec_aikido_finishing"
         ]
     },
@@ -430,7 +430,7 @@
     },
     {
         "type": "technique",
-        "id": "tec_aikido_throw1",
+        "id": "tec_aikido_throw",
         "name": "入身投げ",
         "skill_requirements": [
             {
