@@ -448,6 +448,12 @@
         "down_dur": 1,
         "knockback_dist": 2,
         "knockback_spread": 2,
+        "condition": {
+            "not": {
+                "npc_has_effect": "downed"
+            }
+        },
+        "condition_desc": "* 転倒状態の相手には発動しない。",
         "mult_bonuses": [
             {
                 "stat": "movecost",
