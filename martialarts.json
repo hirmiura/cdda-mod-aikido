@@ -24,7 +24,7 @@
         "arm_block": 0,
         "static_buffs": [
             {
-                "id": "buff_aikido_static1",
+                "id": "yar_buff_aikido_static1",
                 "name": "Aikido Stance",
                 "description": "無理に攻撃せず守りを優先することで、より効果的に身を守ります。\n\nブロック試行数+1, 回避試行数+1, 感覚x25%の回避スキル, ブロック効果+2, 器用x50%のブロック時ダメージ軽減",
                 "unarmed_allowed": true,
@@ -49,7 +49,7 @@
                 ]
             },
             {
-                "id": "buff_aikido_static2",
+                "id": "yar_buff_aikido_static2",
                 "name": "Intermediate Aikido",
                 "description": "合気道の基礎を習得しました。大変動以前に道場で稽古をしていた者には馴染み深い動きです。\n\nブロック試行数+1, 回避試行数+1, 感覚x25%の回避スキル, ブロック効果+2, 器用x50%のブロック時ダメージ軽減",
                 "unarmed_allowed": true,
@@ -80,7 +80,7 @@
                 ]
             },
             {
-                "id": "buff_aikido_static3",
+                "id": "yar_buff_aikido_static3",
                 "name": "Advanced Aikido",
                 "description": "合気道の上級者は、複数の敵からも身を守れます。\n\nブロック試行数+1, 回避試行数+1, 感覚x25%の回避スキル, ブロック効果+2, 器用x50%のブロック時ダメージ軽減, スタミナ消費なし回避 1回/ターン",
                 "unarmed_allowed": true,
@@ -114,7 +114,7 @@
         ],
         "onpause_buffs": [
             {
-                "id": "buff_aikido_onpause",
+                "id": "yar_buff_aikido_onpause",
                 "name": "合気:静寂",
                 "description": "静寂をもって心技体を高めます。\n\n行動コスト-10%, 感覚x25%の回避ボーナス, 器用x50%のブロック時ダメージ軽減, 器用x25%の命中ボーナス\n3ターン継続",
                 "unarmed_allowed": true,
@@ -148,7 +148,7 @@
         ],
         "onmove_buffs": [
             {
-                "id": "buff_aikido_onmove",
+                "id": "yar_buff_aikido_onmove",
                 "name": "合気:入身",
                 "description": "相手の死角へと踏み込み回避と反撃を容易とする体捌き。\n\n感覚x25%の回避ボーナス, 器用x50%の命中ボーナス\n2ターン継続",
                 "unarmed_allowed": true,
@@ -177,7 +177,7 @@
         ],
         "ondodge_buffs": [
             {
-                "id": "buff_aikido_ondodge",
+                "id": "yar_buff_aikido_ondodge",
                 "name": "Fluid Dodging",
                 "description": "攻撃をかわした後、即座に離脱を狙います。\n\n行動コスト-50%, 感覚x25%の回避ボーナス, 器用x25%の命中ボーナス\n1ターン継続",
                 "unarmed_allowed": true,
@@ -204,7 +204,7 @@
                 ]
             },
             {
-                "id": "buff_aikido_ondodge2",
+                "id": "yar_buff_aikido_ondodge2",
                 "name": "合気:転換",
                 "description": "相手の攻撃を捌き、その力を持って無力化する体捌き。\n\nダメージ2倍, 器用x100%の命中ボーナス, 感覚x20%の装甲貫通\n2ターン継続",
                 "unarmed_allowed": true,
@@ -263,7 +263,7 @@
         ],
         "onblock_buffs": [
             {
-                "id": "buff_aikido_onblock",
+                "id": "yar_buff_aikido_onblock",
                 "name": "Fluid Blocking",
                 "description": "攻撃を上手く受け止め、カウンターを繰り出す準備をします。\n\n行動コスト-10%, 感覚x25%の回避ボーナス, 器用x25%の命中ボーナス\n1ターン継続",
                 "unarmed_allowed": true,
@@ -440,7 +440,7 @@
         ],
         "weighting": 3,
         "required_buffs_all": [
-            "buff_aikido_onmove"
+            "yar_buff_aikido_onmove"
         ],
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -513,8 +513,8 @@
         "melee_allowed": true,
         "crit_ok": true,
         "required_buffs_all": [
-            "buff_aikido_onmove",
-            "buff_aikido_ondodge2"
+            "yar_buff_aikido_onmove",
+            "yar_buff_aikido_ondodge2"
         ],
         "dodge_counter": true,
         "down_dur": 3,

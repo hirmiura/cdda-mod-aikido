@@ -7,24 +7,60 @@
         "extend": {
             "clauses": [
                 {
+                    "//": "Aikido   ------------------------------------------",
                     "condition": {
-                        "u_has_effect": "mabuff:buff_aikido_onpause"
+                        "u_has_effect": "mabuff:yar_buff_aikido_static1"
                     },
-                    "id": "buff_aikido_onpause",
+                    "id": "yar_buff_aikido_static1",
+                    "text": "Aikido Stance"
+                },
+                {
+                    "condition": {
+                        "u_has_effect": "mabuff:yar_buff_aikido_static2"
+                    },
+                    "id": "yar_buff_aikido_static2",
+                    "text": "Intermediate Aikido"
+                },
+                {
+                    "condition": {
+                        "u_has_effect": "mabuff:yar_buff_aikido_static3"
+                    },
+                    "id": "yar_buff_aikido_static3",
+                    "text": "Advanced Aikido"
+                },
+                {
+                    "condition": {
+                        "u_has_effect": "mabuff:yar_buff_aikido_onblock"
+                    },
+                    "id": "yar_buff_aikido_onblock",
+                    "text": "Fluid Blocking"
+                },
+                {
+                    "condition": {
+                        "u_has_effect": "mabuff:yar_buff_aikido_ondodge"
+                    },
+                    "id": "yar_buff_aikido_ondodge",
+                    "text": "Fluid Dodging"
+                },
+                {
+                    "condition": {
+                        "u_has_effect": "mabuff:yar_buff_aikido_onpause"
+                    },
+                    "id": "yar_buff_aikido_onpause",
                     "text": "合気:静寂"
                 },
                 {
                     "condition": {
-                        "u_has_effect": "mabuff:buff_aikido_onmove"
+                        "u_has_effect": "mabuff:yar_buff_aikido_onmove"
                     },
-                    "id": "buff_aikido_onmove",
+                    "id": "yar_buff_aikido_onmove",
                     "text": "合気:入身"
                 },
                 {
                     "condition": {
-                        "u_has_effect": "mabuff:buff_aikido_ondodge2"
+                        "u_has_effect": "mabuff:yar_buff_aikido_ondodge2"
                     },
-                    "id": "buff_aikido_ondodge2",
+                    "id": "yar_buff_aikido_ondodge2",
                     "text": "合気:転換"
                 }
             ]
