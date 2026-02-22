@@ -582,6 +582,10 @@
         "unarmed_allowed": true,
         "melee_allowed": true,
         "crit_ok": true,
+        "condition": {
+            "npc_has_effect": "downed"
+        },
+        "condition_desc": "* 転倒状態の相手にのみ発動する。",
         "mult_bonuses": [
             {
                 "stat": "movecost",
