@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "**/.vscode/*.json": "jsonc",
+    "*.json": "json"
+  },
+  "files.eol": "\n",
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "cdda-toys.cdda-json-formatter",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  }
+}
