@@ -1,15 +1,11 @@
 [
-    {
-        "type": "MOD_INFO",
-        "id": "cdda-mod-aikido",
-        "name": "変更 - 合気道",
-        "maintainers": [
-            "hirmiura"
-        ],
-        "dependencies": [
-            "dda"
-        ],
-        "description": "合気道を強化",
-        "category": "rebalance"
-    }
+  {
+    "type": "MOD_INFO",
+    "id": "cdda-mod-aikido",
+    "name": "変更 - 合気道",
+    "maintainers": [ "hirmiura" ],
+    "dependencies": [ "dda" ],
+    "description": "合気道を強化",
+    "category": "rebalance"
+  }
 ]
