@@ -176,7 +176,7 @@
     "knockback_dist": 1,
     "knockback_spread": 1,
     "mult_bonuses": [
-      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "movecost", "scale": 0.0 },
       { "stat": "damage", "type": "bash", "scale": 0.9 },
       { "stat": "damage", "type": "cut", "scale": 0.9 },
       { "stat": "damage", "type": "stab", "scale": 0.9 }
@@ -196,7 +196,7 @@
     "dodge_counter": true,
     "down_dur": 2,
     "mult_bonuses": [
-      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "movecost", "scale": 0.0 },
       { "stat": "damage", "type": "bash", "scale": 0.9 },
       { "stat": "damage", "type": "cut", "scale": 0.9 },
       { "stat": "damage", "type": "stab", "scale": 0.9 }
@@ -246,7 +246,7 @@
     "dodge_counter": true,
     "down_dur": 3,
     "mult_bonuses": [
-      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "movecost", "scale": 0.0 },
       { "stat": "damage", "type": "bash", "scale": 5.0 },
       { "stat": "damage", "type": "cut", "scale": 5.0 },
       { "stat": "damage", "type": "stab", "scale": 5.0 }
