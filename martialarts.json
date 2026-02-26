@@ -149,6 +149,30 @@
   },
   {
     "type": "technique",
+    "id": "tec_aikido_blockthrow",
+    "copy-from": "tec_aikido_blockthrow",
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.3 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_aikido_dodgethrow",
+    "copy-from": "tec_aikido_dodgethrow",
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.1 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_aikido_blockdisarm",
+    "copy-from": "tec_aikido_blockdisarm",
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.1 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_aikido_dodgedisarm",
+    "copy-from": "tec_aikido_dodgedisarm",
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.1 } ]
+  },
+  {
+    "type": "technique",
     "id": "tec_aikido_break",
     "name": "Grab Break",
     "messages": [
@@ -160,7 +184,7 @@
     "melee_allowed": true,
     "defensive": true,
     "grab_break": true,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.4 } ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.2 } ]
   },
   {
     "type": "technique",
